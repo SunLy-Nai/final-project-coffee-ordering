@@ -4,13 +4,13 @@ using namespace std;
 
 void displayMenu () {
     cout << "\n----- COFFEE MENU ----\n";
-    cout << "1. Expresso       1.90\n";
-    cout << "2. Ice Latte      2.50\n";
-    cout << "3. Green tea      2.25\n";
-    cout << "4. Mocha          2.00\n";
-    cout << "5. Americano      2.35\n";
-    cout << "6. Matcha         2.15\n";
-    cout << "7. Black coffee   1.60\n";
+    cout << "1. Expresso       $1.90\n";
+    cout << "2. Ice Latte      $2.50\n";
+    cout << "3. Green tea      $2.25\n";
+    cout << "4. Mocha          $2.00\n";
+    cout << "5. Americano      $2.35\n";
+    cout << "6. Matcha         $2.15\n";
+    cout << "7. Black coffee   $1.60\n";
 }
 
 int main () {
@@ -41,7 +41,8 @@ int main () {
         double itemPrice = basePrice;
 
         char iceOrHot;
-        cout << "Do you want ice or hot? Ice(I),Hot(H)";
+        cout << "Do you want ice or hot?";
+        cout << "Ice(I) or Hot(H): ";
         cin >> iceOrHot;
         if (toupper(iceOrHot) == 'I'){
             int iceLevel;
