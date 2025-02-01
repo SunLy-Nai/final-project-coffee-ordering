@@ -41,7 +41,7 @@ int main () {
         double itemPrice = basePrice;
 
         char iceOrHot;
-        cout << "Do you want ice or hot?";
+        cout << "Do you want ice or hot?\n";
         cout << "Ice(I) or Hot(H): ";
         cin >> iceOrHot;
         if (toupper(iceOrHot) == 'I'){
