@@ -89,7 +89,7 @@ int main () {
                 break;
             case 3:
                 orderItem.push_back("Larg size");
-                costSize =+ 1.00;
+                costSize += 1.00;
                 break;
             default :
                 cout<< "Invalid input size => Default is small size";
