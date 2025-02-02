@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include <iomanip>
 using namespace std;
 
@@ -66,6 +67,8 @@ int main () {
                     orderItem.push_back("Regular ice");
                 break;
             }
+        } else if(toupper(iceOrHot) != 'I') {
+            cout<< "Invalid input => set to default hot!\n";
         }
         
         int sizeItem;
